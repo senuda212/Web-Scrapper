@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+
+# Local databases and runtime artifacts
+backend/*.db
+backend/spiders_workspace/spider_*.py
+backend/spiders_workspace/__pycache__/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+.vscode/
